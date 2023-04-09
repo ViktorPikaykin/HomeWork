@@ -10,13 +10,10 @@ Console.Write("Input a second number: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
 if(num1 > num2)
-{
     Console.WriteLine(num1 + "-max " + num2 + "-min");
-}
+
 else
-{
     Console.WriteLine(num1 + "-min " + num2 + "-max");
-}
 */
 
 // Задача 4: Напишите программу, которая принимает на вход три числа
@@ -33,13 +30,11 @@ int num3 = Convert.ToInt32(Console.ReadLine());
 int max = num1;
 
 if(num2 > max)
-{
     max = num2;
-}
+
 if(num3 > max)
-{
     max = num3;
-}
+
 Console.WriteLine("number " + max + " maximum ");
 */
 
@@ -53,13 +48,9 @@ int num = Convert.ToInt32(Console.ReadLine());
 int current = num % 2;
 
 if(current == 0)
-{
     Console.WriteLine("Yes!");
-}
 else
-{
     Console.WriteLine("No!");
-}
 */
 
 // Задача 8: Напишите программу, которая на вход принимает число (N),
@@ -72,8 +63,6 @@ int num = Convert.ToInt32(Console.ReadLine());
 int current = 2;
 
 while(current <= num)
-{
     Console.Write(current + " ");
     current = current + 2;
-}
 */
